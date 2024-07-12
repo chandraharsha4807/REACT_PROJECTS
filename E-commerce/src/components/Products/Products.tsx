@@ -71,7 +71,7 @@ export const Products: FunctionComponent = () => {
 
   return (
     <section className={classes.productPage}>
-      <h1>Products</h1>
+      <h1 className={classes.producttitle}>Products</h1>
 
       <div className={classes.container}>
         {products.map(product => (
