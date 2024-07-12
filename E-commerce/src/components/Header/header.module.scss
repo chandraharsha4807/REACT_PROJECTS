@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #6268de;
+  transition: height 0.3s ease;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0.9;
+  justify-content: space-between;
+  z-index: 1;
+
+  .logo {
+    height: 3em;
+    margin-left: 1rem;
+    &:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+  }
+}
