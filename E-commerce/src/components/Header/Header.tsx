@@ -5,7 +5,7 @@ import useLocalStorageState from "use-local-storage-state";
 import logo from "/logo.svg";
 import { CartWidget } from "../CartWidget";
 import { CartProps } from "../Products/Products.tsx";
-import classes from "./header.module.scss";
+import classes from "./header.module.css";
 
 export const Header: FunctionComponent = () => {
 

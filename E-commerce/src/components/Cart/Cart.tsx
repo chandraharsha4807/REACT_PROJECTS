@@ -5,7 +5,7 @@ import { Quantifier } from '../Quantifier'
 import { CartProps } from '../Products/Products.tsx'
 import { TotalPrice } from '../TotalPrice'
 import { Operation } from '../Quantifier/Quantifier.tsx'
-import classes from './cart.module.scss'
+import classes from './cart.module.css'
 import { useLocation } from 'react-router-dom'
 
 

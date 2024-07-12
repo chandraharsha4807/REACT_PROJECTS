@@ -2,7 +2,7 @@ import { FunctionComponent, useEffect, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 
 import { CurrencyFormatter } from '../CurrencyFormatter'
-import classes from './products.module.scss'
+import classes from './products.module.css'
 import { Loader } from '../Loader'
 
 const API_URL = 'https://dummyjson.com/products'

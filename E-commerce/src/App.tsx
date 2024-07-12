@@ -4,7 +4,7 @@ import { Header } from './components/Header'
 import { Products } from './components/Products'
 import { Footer } from './components/Footer'
 import { Cart } from './components/Cart'
-import './app.module.scss'
+import './app.module.css'
 
 function App() {
   return (

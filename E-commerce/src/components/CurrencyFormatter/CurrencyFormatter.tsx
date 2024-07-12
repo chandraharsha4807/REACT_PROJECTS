@@ -1,6 +1,6 @@
 import { FunctionComponent } from 'react'
 
-import classes from './currency-formatter.module.scss'
+import classes from './currency-formatter.module.css'
 
 
 interface Props {

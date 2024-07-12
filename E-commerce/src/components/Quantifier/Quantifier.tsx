@@ -1,6 +1,6 @@
 import { FunctionComponent, useState } from "react";
 
-import classes from "./quantifier.module.scss";
+import classes from "./quantifier.module.css";
 
 export type Operation = "decrease" | "increase";
 

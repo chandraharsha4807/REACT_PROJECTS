@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react'
 
 import { CurrencyFormatter } from '../CurrencyFormatter'
-import classes from './total-price.module.scss'
+import classes from './total-price.module.css'
 
 interface Props {
   amount: number
